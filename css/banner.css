@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+.banner{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    margin-bottom: 40px;
+    font-family: 'Oleo Script', cursive;
+    background-image: url(../img/gems1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size:cover;
+    
+}
+
+section .Contenedor_banner{
+    background-color: rgba(0, 0, 0, .5);
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.banner .Contenedor_banner{
+    width: 100%;
+
+}
+.banner .info{
+    background-color: transparent;
+    width: 100%;
+    margin-top: 0px;
+    color: #fff;
+    text-align: center;
+    
+}
+.banner .info h1{
+    font-size: 70px;
+    margin-top: 50px;
+}
+.banner .info p{
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+.banner .info a{
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: all 300ms;
+}
+.banner .info a:hover{
+    background-color: #fff;
+    color: #000;
+}
+/*Fin del banner index*/
+/*Banner productos*/
+.banner_producto{
+    
+    background-color: rgb(255, 150, 20);
+    width: 100%;
+    height:100px;
+    display: flex; 
+}
+.Contenedor_banner_producto{
+    width: 100%;
+}
+.info_producto{
+    font-family: 'Oleo Script', cursive;
+    width: 100%;
+    margin-top: 0px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 24px;
+}
+/*Fin del banner productos*/
+/*Banner contacto*/
+.banner_contacto{
+    background-color: rgb(255, 150, 20);
+    width: 100%;
+    height:100px;
+    display: flex; 
+}
+.Contenedor_banner_contacto{
+    width: 100%;
+}
+.info_contacto{
+    font-family: 'Oleo Script', cursive;
+    width: 100%;
+    margin-top: 0px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 24px;
+}
+/*fin de banner contacto*/
+/*Banner presupuesto*/
+.banner_presupuesto{
+    background-color: rgb(255, 150, 20);
+    width: 100%;
+    height:100px;
+    display: flex; 
+}
+.Contenedor_banner_presupuesto{
+    width: 100%;
+}
+.info_presupuesto{
+    font-family: 'Oleo Script', cursive;
+    width: 100%;
+    margin-top: 0px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 24px;
+}
+/*fin de banner presupuesto*/
+@media only screen and (max-width: 1000px){
+    .banner{
+        width: 100%;
+        height: 800px;
+        display: flex;
+        margin-bottom: 40px;
+        font-family: 'Oleo Script', cursive;
+        background-image: url(../img/gems1.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+        background-size:cover;
+        
+    }
+
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/logo.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/e15e8c34af.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/banner.css">
+    <title>Presupuesto</title>
+</head>
+<body>
+    <div id="contenedor-all">
+        <header class="header_contentenedor">
+            <div class="logo-nav-container">
+                <a href="../index.html" title="Goya´s Piedras Genuinas"> <img  src="../img/logo.png" alt="ECAF"> </a>
+                <span class="menu-icon"><i class="fas fa-bars"></i></span>
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="../index.html">Inicio<i class="fas fa-home logos"></i></a></li>
+                        <li><a href="productos.html">Productos<i class="far fa-gem logos"></i></a></li>
+                        <li><a href="contacto.html">Contacto<i class="fas fa-phone-square-alt logos"></i></a></li>
+                        <li><a href="presupuesto.html"></i>Obtener tu presupuesto <i class="fas fa-comment-dollar"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="banner_presupuesto"> 
+            <div class="Contenedor_banner_presupuesto">
+                <div class="info_presupuesto">
+                    <h1>Envianos tu pedido</h1>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor_all_presupuesto">
+            <div class="contenedor_formulario">
+                <form name="form" action="show_data.html" target="_blank" onsubmit="return validar()";>
+                    <div class="formulario">
+                        <b>Nombre:</b><input type="text" name="nombre"required placeholder="Ingresa tu nombre"> 
+                    </div>
+                    <div class="formulario">
+                        <b>Apellidos</b><input type="text" name="apellido"required placeholder="Ingresa tu apellido">
+                    </div>
+                    <div class="formulario">
+                        <b>Email:</b><input type="email" name="correo"required placeholder="Ingresa tu mail"> 
+                    </div>
+                    <div class="formulario">
+                        <b>Telefono: </b><input type="number" name="telefono"required placeholder="Ingresa tu telefono"> 
+                    </div>
+                    <div class="formulario">
+                        <b>Pedido:</b><textarea name="mensaje"  cols="35" rows="5" placeholder="Ingresa tu pedido"></textarea>
+                    </div>
+                    <div class="formulario">
+                        <div class="wrap">
+                          <button class="button" type="submit" onclick="validar()";>Enviar</button>
+                        </div>
+                        <p><b>Se le estara contestando a la brevedad! GRACIAS!</b></p>  
+                    </div>
+                </form>
+            </div>
+            
+        </section>
+        </div>
+        <Footer class="footer">
+            <ul>
+                <td> <a class="color" href="#" target="_blank"> <i class="fab fa-whatsapp" > </i></a> </td>
+                <td> <a class="color" href="https://www.instagram.com/goyaspiedras/" target="_blank"> <i class="fab fa-instagram-square"></i></a> </td>
+                <td> <a href=""></a></td>
+            </ul> 
+            <div class="footer-final">
+                <h4>Goya's Piedras Genuinas</h4>
+                <h4>Libertad 123 (C1012), Ciudad Autonoma de Buenos Aires</h4>
+                <h4>Telefono: (011) 4433-2288</h4>
+                <p>Derechos Reservados @2021</p> 
+            </div>
+        </Footer> 
+    </div>
+   
+</body>
+<script src="../js/formulario.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="../js/header.js"></script>
+</html>
